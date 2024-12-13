@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Rolling Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="flex items-center flex-col justify-center h-[80vh] w-[100vw]">
+        <h1 class="text-4xl font-bold mb-10">Dice Roll Simulator </h1>
+        <div
+            class="flex w-[200px] h-[200px] rounded-lg shadow-xl bg-[#dadada69] justify-center items-center dice mb-10">
+            <p class="text-4xl font-medium" id="dice-number">1</p>
+        </div>
+        <button
+            class="bg-green-500 text-white py-3 px-6 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500"
+            onclick="rollDice()">
+            Spin
+        </button>
+    </div>
+
+    <div class="tried-container flex-col flex justify-center items-center">
+
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
